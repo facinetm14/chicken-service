@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  apis:
+    container_name: apis
+    build:
+      context: ./chicken
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./apis:/usr/src/app
+      - /app/node_modules
