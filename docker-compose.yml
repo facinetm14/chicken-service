@@ -1,4 +1,4 @@
-version: '3.7'
+version: "3.7"
 
 services:
   apis:
@@ -6,7 +6,7 @@ services:
     build:
       context: ./chicken
     ports:
-      - '3000:3000'
+      - "3000:3000"
+    working_dir: /usr/src/app
     volumes:
       - ./apis:/usr/src/app
-      - /app/node_modules
