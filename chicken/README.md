@@ -1,3 +1,6 @@
+## Chicken-servie
+Une API REST contenant les fonctions CRUD
+
 ## Auteur
 Facinet Kouyate
 
