@@ -1,4 +1,6 @@
 # Chicken-servie
+
+This TypeScript REST API models a chicken and its activity in MongoDB. Start with the endpoint examples below to create a record, then retrieve it by name. The French setup notes cover local Node.js and Docker Compose.
 Une API REST contenant les fonctions CRUD
 
 ## Auteur
